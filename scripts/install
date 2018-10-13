@@ -22,7 +22,7 @@ sudo yunohost app checkurl "${domain}${path}" -a "$app" \
     || ynh_die "Path not available: ${domain}${path}"
 
     # Download sources 
-sudo wget -q https://github.com/Blount/LBCAlerte/archive/3.3.zip -O LBCAlerte.zip
+sudo wget -q https://github.com/Blount/Cheky/archive/4.3.5.zip -O LBCAlerte.zip
 
 # Uncompress
 sudo unzip -qq LBCAlerte.zip -d ..
